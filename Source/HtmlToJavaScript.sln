@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToJavaScript", "HtmlToJavaScript\HtmlToJavaScript.csproj", "{87626BF0-FD0A-47E4-BC24-FEAA1873FA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToJavaScript.Tests", "HtmlToJavaScript.Tests\HtmlToJavaScript.Tests.csproj", "{983DF1E9-0861-427A-8617-561C92A7BA88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87626BF0-FD0A-47E4-BC24-FEAA1873FA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87626BF0-FD0A-47E4-BC24-FEAA1873FA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87626BF0-FD0A-47E4-BC24-FEAA1873FA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87626BF0-FD0A-47E4-BC24-FEAA1873FA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983DF1E9-0861-427A-8617-561C92A7BA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983DF1E9-0861-427A-8617-561C92A7BA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983DF1E9-0861-427A-8617-561C92A7BA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983DF1E9-0861-427A-8617-561C92A7BA88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
