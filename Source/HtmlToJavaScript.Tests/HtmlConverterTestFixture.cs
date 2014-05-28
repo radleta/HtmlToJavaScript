@@ -21,9 +21,7 @@ namespace HtmlToJavaScript
                 yield return new TestCaseData(
                     new HtmlConverter(),
 @"var HtmlToJavaScript = HtmlToJavaScript || {};
-(function (HtmlToJavaScript) {
-  HtmlToJavaScript['DivBasic'] = '<div></div>';
-})(HtmlToJavaScript);",
+HtmlToJavaScript['DivBasic'] = '<div></div>';",
                     "DivBasic",
 @"<div></div>"
                     );
@@ -31,9 +29,7 @@ namespace HtmlToJavaScript
                 yield return new TestCaseData(
                     new HtmlConverter(),
 @"var HtmlToJavaScript = HtmlToJavaScript || {};
-(function (HtmlToJavaScript) {
-  HtmlToJavaScript['DivWithSingleQuotesLineBreaksWhiteSpace'] = '<div class=\'name\'>\r\n    It\'s a great day for a test!\r\n</div>';
-})(HtmlToJavaScript);",
+HtmlToJavaScript['DivWithSingleQuotesLineBreaksWhiteSpace'] = '<div class=\'name\'>\r\n    It\'s a great day for a test!\r\n</div>';",
                     "DivWithSingleQuotesLineBreaksWhiteSpace",
 @"<div class='name'>
     It's a great day for a test!

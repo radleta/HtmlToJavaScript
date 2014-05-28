@@ -1,4 +1,2 @@
 ﻿var HtmlToJavaScript = HtmlToJavaScript || {};
-(function (HtmlToJavaScript) {
-  HtmlToJavaScript[@@Name@@] = @@Html@@;
-})(HtmlToJavaScript);
+HtmlToJavaScript[@@Name@@] = @@Html@@;
