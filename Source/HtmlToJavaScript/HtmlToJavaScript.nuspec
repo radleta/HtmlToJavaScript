@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://radleta.github.com/HtmlToJavaScript</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>See the project wiki on github for release notes.</releaseNotes>
+    <copyright>Copyright 2014 Richard Adleta</copyright>
+    <tags>html js html2js htmltojs htmltojavascript javascript convert converter</tags>
+  </metadata>
+</package>
