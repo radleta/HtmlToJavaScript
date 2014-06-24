@@ -7,7 +7,7 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>http://radleta.github.com/HtmlToJavaScript</projectUrl>
+    <projectUrl>http://www.github.com/radleta/HtmlToJavaScript</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The ASP.NET integration for HtmlToJavaScript. Provides a handler to transform *.js.html from Html to JavaScript on the fly.</description>
     <releaseNotes>See the project wiki on github for release notes.</releaseNotes>
