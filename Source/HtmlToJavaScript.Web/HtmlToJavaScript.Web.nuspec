@@ -13,14 +13,8 @@
     <releaseNotes>See the project wiki on github for release notes.</releaseNotes>
     <copyright>Copyright 2014 Richard Adleta</copyright>
     <tags>asp-net http-handler javascript html convert htmltojs htmltojavascript html2js</tags>
-    <references>
-      <reference file="HtmlToJavaScript.dll" />
-    </references>
     <dependencies>
       <dependency id="HtmlToJavaScript" version="$HtmlToJavaScriptMSBuildVersion$" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="bin\$configuration$\*" target="lib\net40" />
-  </files>
 </package>

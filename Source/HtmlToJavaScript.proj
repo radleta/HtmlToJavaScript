@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <Target Name="Build">
-    <MSBuild Projects="HtmlToJavaScript\HtmlToJavaScript.csproj;HtmlToJavaScript.Tests\HtmlToJavaScript.Tests.csproj;" Properties="Configuration=%(Configurations.Identity)" Targets="Rebuild" />
+    <MSBuild Projects="HtmlToJavaScript\HtmlToJavaScript.csproj;HtmlToJavaScript.Tests\HtmlToJavaScript.Tests.csproj;HtmlToJavaScript.Web\HtmlToJavaScript.Web.csproj;" Properties="Configuration=%(Configurations.Identity)" Targets="Rebuild" />
   </Target>
 
   <Target Name="Test">
@@ -31,7 +31,7 @@
     <RemoveDir Directories="$(OutputDir)" />
     <MakeDir Directories="$(OutputDir)" />
 	
-    <Exec Command="..\.nuget\nuget pack -Tool -Properties Configuration=Release -OutputDirectory &quot;$(OutputDir)&quot;" WorkingDirectory="HtmlToJavaScript\" />
+    <Exec Command="..\.nuget\nuget pack -Properties Configuration=Release -OutputDirectory &quot;$(OutputDir)&quot;" WorkingDirectory="HtmlToJavaScript\" />
 
     <GetAssemblyIdentity AssemblyFiles="HtmlToJavaScript\bin\Release\HtmlToJavaScript.dll">
       <Output TaskParameter="Assemblies" ItemName="HtmlToJavaScriptMSBuildAssemblyInfo" />
