@@ -121,7 +121,7 @@ namespace HtmlToJavaScript
             var converter = new HtmlConverter(Options);
 
             // convert the html to javascript
-            var javaScript = converter.ToJavaScript(file.Name, html);
+            var javaScript = converter.ToJavaScript(file.Name.ToLower(), html);
 
             // create the output
             return new HtmlToJavaScriptOutput()
